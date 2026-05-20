@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en' style="color: rgb(175, 54, 54);">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Universidad de las Fuerzas Armadas ESPE</title>
+</head>
+
+<body style="background-color:aquamarine; ">
+    <main>
+        <h1 style="font-size: 24px;color: black;text-align: center;">Incio de sesión</h1>
+    </main>
+    <section style="margin: 100px; width: 450px;height: 240px;text-align: center; border-radius: 20px;background-color: white; border: none;">
+        <h2>Registro</h2>
+        <form action="pages/Inicio/Inicio.html" method="get">
+            <label for="correo">Correo</label>
+            <input id="correo" name="correo" type="email" placeholder="Ejemplo@espe.com" required>
+            <br><br>
+            <label for="contraseña">Contraseña</label>
+            <input id="contraseña" name="contraseña" type="password" required maxlength="16" minlength="8">
+            <br><br>
+            <button type="submit"> Iniciar Sesión</button>
+        </form>
+            <h3>Registro</h3>
+            <form action="pages/Registro/Registro.html" method="post">
+            <button type="submit">Registro</button>
+        </form>
+    </section>
+     <footer>
+        <p>Universidad de las Fuerzas Armadas ESPE</p>
+    </footer>
+</body>
+
+</html>
